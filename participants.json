@@ -1,7 +1,14 @@
 {
   "participant_id": {
-    	"LongName": "Participant ID",
-    	"Description": "Id of the participant"   
+    "LongName": "Participant ID",
+    "Description": "Id of the participant",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
+    }
   },
   "exam_date": {
     "LongName": "Date of exam",
@@ -16,9 +23,9 @@
     }
   },
   "field_strength": {
-    "LongName":"Magnetic filed strength",
-    "Description":"Magnetic filed strength for MRA scan",
-    "Levels":{
+    "LongName": "Magnetic filed strength",
+    "Description": "Magnetic filed strength for MRA scan",
+    "Levels": {
       "3T": "3 Tesla",
       "7T": "7 Tesla"
     }
